@@ -5,47 +5,14 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import { TabNavigator } from '../routes/tabNav';
 
-
-// import { get, post } from 'httpie';
-
 export default function SwipeScreen({navigation}) {
   return (
     <View style={styles.screenContainer}>
       {/* <StatusBar style="auto" /> */}
       <Text style={styles.text}>Swipe Screen is the sh-i-it</Text>
       {/* <Button onPress={() => navigation.navigate('../screens/welcome')} title='goback' /> */}
-      <TabNavigator/>
     </View>
-    // <Tab.Navigator>
-    //   <Tab.Screen
-    //     name="swipeScreen"
-    //     component={home}
-    //     options={{
-    //       title: 'Home',
-    //       tabBarIcon: ({ color, size }) => (
-    //         <Ionicons
-    //           style={styles.backButtonIcon}
-    //           size={32}
-    //           name="home"
-    //         />
-    //       )
-    //     }}
-    //   />
-    //   <Tab.Screen
-    //     name="welcome"
-    //     component={welcome}
-    //     options={{
-    //       title: 'Welcome',
-    //       tabBarIcon: ({ color, size }) => (
-    //         <AntDesign
-    //           style={styles.backButtonIcon}
-    //           size={32}
-    //           name="user"
-    //         />
-    //       )
-    //     }}
-    //   />
-    // </Tab.Navigator>
+
   );
 }
 
